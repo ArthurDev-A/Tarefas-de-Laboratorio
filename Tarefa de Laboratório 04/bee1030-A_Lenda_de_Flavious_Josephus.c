@@ -13,4 +13,6 @@ int main() {
         scanf("%d %d", &n, &k); 
         printf("Case %d: %d\n", i, LendaFlaJo(n, k)+1);
     }
+    
+    return 0;
 }
