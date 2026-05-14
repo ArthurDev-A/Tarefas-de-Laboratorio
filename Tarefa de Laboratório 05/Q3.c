@@ -3,7 +3,13 @@
 #include <limits.h>
 
 unsigned long int mmc(unsigned int n, unsigned int m) {
-    return n*m;
+    unsigned int maior = (n > m) ? n : m;
+    unsigned long int i, i_max = n*m;
+
+    for (i=maior; i<i_max; i++)
+        if ((i%n == 0) && (i%m == 0))
+            return i;
+    return i_max;
 }
 
 int main() {
@@ -12,7 +18,7 @@ int main() {
     printf("Insira dois numeros inteiros positivos separados por espaco: ");
     scanf("%u %u", &n, &m);
 
-    printf("O MMC entre %u e %u eh %lu", n, m, mmc(n, m));
-    //printf("%lu", (unsigned long int) n + m);
+    printf("O MMC entre %u e %u eh %lu\n", n, m, mmc(n, m));
+    /*printf("%lu", (unsigned long int) n + m);*/
     return 0;
 }
