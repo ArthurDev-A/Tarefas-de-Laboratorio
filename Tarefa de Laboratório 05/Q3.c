@@ -1,20 +1,18 @@
+/* gcc -std=c89 -pedantic-errors -Wall -Wextra arquivo.c -o programa */
 #include <stdio.h>
+#include <limits.h>
 
-//long unsigned int mmc(unsigned int n, unsigned int m) {
-
-//}
+unsigned long int mmc(unsigned int n, unsigned int m) {
+    return n*m;
+}
 
 int main() {
     unsigned int n, m;
-    long unsigned int saida;
-    /*
+
     printf("Insira dois numeros inteiros positivos separados por espaco: ");
     scanf("%u %u", &n, &m);
 
     printf("O MMC entre %u e %u eh %lu", n, m, mmc(n, m));
-    */
-    n = 42949672945;
-    m = 1;
-    printf("%u", n);
+    //printf("%lu", (unsigned long int) n + m);
     return 0;
 }
