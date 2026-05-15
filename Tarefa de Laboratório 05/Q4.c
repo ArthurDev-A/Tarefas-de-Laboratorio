@@ -11,7 +11,7 @@ int main() {
         i++;
     }
 
-    printf((sum == n) ? "Eh perfeito" : "Nao eh perfeito");
+    printf((sum == n) ? "Eh perfeito\n" : "Nao eh perfeito\n");
 
     return 0;
 }
