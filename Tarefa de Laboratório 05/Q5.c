@@ -11,7 +11,6 @@ long int inverte(int n) {
     }
 
     return (n%10) * p10 + inverte(n/10);
-
 }
 
 int main() {
