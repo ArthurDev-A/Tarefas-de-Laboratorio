@@ -18,7 +18,7 @@ int main() {
     int n;
     scanf("%d", &n);
 
-    printf("%ld", inverte(n));
+    printf("%ld\n", inverte(n));
 
     return 0;
 }
