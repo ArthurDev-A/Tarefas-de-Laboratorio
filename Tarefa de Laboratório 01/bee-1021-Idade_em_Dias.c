@@ -1,5 +1,3 @@
-// https://judge.beecrowd.com/pt/problems/view/1021
-
 #include <stdio.h>
 
 int main()
@@ -11,7 +9,7 @@ int main()
     n = (int) (aux*100);
     
     printf("NOTAS:\n");
-    // conta quantas vezes foi subtraido o valor e printa a quantidade de cédulas.
+    /* conta quantas vezes foi subtraido o valor e printa a quantidade de cédulas */
     printf("%d nota(s) de R$ 100.00\n", n / 10000);
     n %= 10000;
     
@@ -32,7 +30,7 @@ int main()
     
     
     printf("MOEDAS:\n");
-    // vide cédulas para moedas
+    /* vide cédulas para moedas */
     printf("%d moeda(s) de R$ 1.00\n", n / 100);
     n %= 100;
 
