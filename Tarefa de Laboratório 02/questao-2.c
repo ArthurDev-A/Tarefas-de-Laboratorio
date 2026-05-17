@@ -16,6 +16,5 @@ int main() {
     
     printf("%d\n", fat2(n));
 
-
     return 0;
 }
