@@ -15,6 +15,5 @@ int main() {
     
     printf("%d\n", bin(n));
 
-
     return 0;
 }
