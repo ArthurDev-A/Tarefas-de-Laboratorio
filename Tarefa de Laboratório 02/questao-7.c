@@ -14,4 +14,6 @@ int main() {
     scanf("%d", &n);
 
     printf("\n%d", loc_tetranacci(n));
+
+    return 0;
 }
