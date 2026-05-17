@@ -11,8 +11,8 @@ int main() {
 
     while (n) {
         m = 1;
-        //(LendaFlaJo(n-1, m)+1)%n considera que o numero 1 foi retirado
-        while ((LendaFlaJo(n-1, m)+1)%n != 12) // 12 eh o alvo (13) - 1
+        /* (LendaFlaJo(n-1, m)+1)%n considera que o numero 1 foi retirado */
+        while ((LendaFlaJo(n-1, m)+1)%n != 12) /* 12 eh o alvo (13) - 1 */
             m++;
         
         printf("%d\n", m);
