@@ -18,4 +18,6 @@ int main() {
     scanf("%d", &n);
 
     printf("\n%d", h(n));
+
+    return 0;
 }
