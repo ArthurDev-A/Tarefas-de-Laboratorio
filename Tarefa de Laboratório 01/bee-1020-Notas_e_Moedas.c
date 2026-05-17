@@ -1,4 +1,3 @@
-// https://judge.beecrowd.com/pt/problems/view/1020
 #include <stdio.h>
 
 int main()
