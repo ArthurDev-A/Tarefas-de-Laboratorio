@@ -18,4 +18,6 @@ int main() {
     scanf("%d", &n);
 
     printf("\n%d", fat_exp(n));
+
+    return 0;
 }
