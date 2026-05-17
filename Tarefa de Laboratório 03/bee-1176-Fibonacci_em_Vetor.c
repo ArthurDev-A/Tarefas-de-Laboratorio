@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int main() {
     int t, n, i, j, aux=2; /* Comeca em 2, pois as posicoes 0 e 1 são definidas no inicio */
     unsigned long long int v[61]; /* Em C ANSI: unsigned long int*/
