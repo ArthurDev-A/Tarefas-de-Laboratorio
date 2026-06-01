@@ -4,6 +4,11 @@
 ```bash
 make ALL
 ```
+ou
+```bash
+mingw32-make ALL
+```
+(varia de acordo com a instalação local)
 
 ## Execução
 ```bash
