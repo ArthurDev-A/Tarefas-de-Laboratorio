@@ -8,6 +8,7 @@
 #ifndef DEFINES_H
 #define DEFINES_H
 
+/* #define comum a varios arquivos */
 #define TAMANHO_S 1024
 
 #endif

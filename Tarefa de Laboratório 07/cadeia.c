@@ -29,7 +29,7 @@ void str_copia(char *s, char *d) {
 }
 
 void str_concatena(char *s, char *d) {
-    int i, j = 0;
+    int i, j;
 
     if ((i = str_tamanho(d)) != -1) {
         if ((str_tamanho(s)) != -1){
