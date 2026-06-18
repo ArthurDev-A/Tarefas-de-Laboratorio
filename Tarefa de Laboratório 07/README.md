@@ -29,7 +29,7 @@ usando del, geralmente Windows
 ```bash
 mingw32-make clean_win
 ```
-(a utilização de make ou mingw32-make e depende da instalação local)
+(a utilização de make ou mingw32-make depende da instalação local)
 
 # Grafo de dependências
 
