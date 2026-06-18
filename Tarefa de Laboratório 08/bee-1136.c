@@ -11,9 +11,10 @@ short int eh_possivel(int n, int *B, int t, int max) {
     int a, b;
     for (a=0; a<=max; a++) {
         b=n+a;
-        if (b<=max)
+        if (b<=max) {
             if (n_in_vector(a, B, t) && n_in_vector(b, B, t))
                 return 1;
+        } else return 0;
     }
     return 0;
 }
